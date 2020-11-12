@@ -32,7 +32,7 @@ class RouteGenerator(object):
         max_new = self.max_step
         for time in timing:
             entry_times = np.append(entry_times, ((max_new - min_new)/(max_old-min_old)) * \
-                (time -max_old ) + max_new)
+                (time - max_old ) + max_new)
 
         entry_times = np.rint(entry_times) # get time without float point. 
         routes_path = os.path.join(Config.NETWORK_URI,'cross.rou.xml')
@@ -40,7 +40,7 @@ class RouteGenerator(object):
         with open(routes_path, mode='w') as demand:
             print('''
             <routes>
-                <vType id="passenger" accel="0.8" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="16.67" guiShape="passe    nger" color="255,255,0"/>
+                <vType id="passenger" accel="0.8" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="16.67" guiShape="passenger" color="255,255,0"/>
                     <route id="Eastbound.L"  edges="2_0 0_3" />
                     <route id="Eastbound.T"  edges="2_0 0_1" />
                     <route id="Eastbound.TR" edges="2_0 0_4" />
@@ -104,7 +104,7 @@ class RouteGenerator(object):
                             pass
                 
                 else:
-                    route = np.random.randint(1, 5)
+                    road = np.random.randint(1, 5)
                     if road == 1:
                             print('''
                             <vehicle id="Northbound.L_%i" route="Northbound.L" depart="%s" type="passenger" departSpeed="10" />
