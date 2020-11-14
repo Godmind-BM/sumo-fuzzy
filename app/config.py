@@ -10,7 +10,7 @@ class Config(object):
     SAMPLES_URI:str = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'samples')
     PLOTS_URI:str   = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'plots')  
     SEED:int        = 10000 
-    MAX_STEPS:int   = 5430
+    MAX_STEPS:int   = 5400
     GUI:bool        = True
     TOTAL_VEHICLE:int = 2000
 

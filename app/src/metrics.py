@@ -16,7 +16,7 @@ def get_queue_length() -> int:
     return total
 
 
-def get_waiting_time() -> int:
+def get_waiting_time() -> float:
     '''
     Returns total avreage waiting time per steps
     '''

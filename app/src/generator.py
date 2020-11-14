@@ -27,11 +27,11 @@ class RouteGenerator(object):
         # reshaping the distribustion
         entry_times = np.array([])
         min_old = np.math.floor(timing[1])
-        max_old = np.math.floor(timing[-1])
+        max_old = np.math.ceil(timing[-1])
         min_new = 0
         max_new = self.max_step
         for time in timing:
-            entry_times = np.append(entry_times, ((max_new - min_new)/(max_old-min_old)) * \
+            entry_times = np.append(entry_times, ((max_new - min_new) / (max_old - min_old)) * \
                 (time - max_old ) + max_new)
 
         entry_times = np.rint(entry_times) # get time without float point. 
@@ -59,7 +59,7 @@ class RouteGenerator(object):
             # 80 % of vehicle goes through or right and 20 % goes left.
             for counter, time in enumerate(entry_times): 
                 side = np.random.uniform(0, 1)
-                if side < 0.8:
+                if side < 0.9:
                     direction = np.random.uniform(0, 1)
                     if direction < 0.6:
                         road = np.random.randint(1, 5)

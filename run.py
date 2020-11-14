@@ -11,7 +11,6 @@ from app.src.simulation import FixedTimeSimulation
 def main():
     sim = FixedTimeSimulation()
     sim.run()
-    sim.save_samples()
-
+    
 if __name__ == '__main__':
     main()
