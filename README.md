@@ -25,6 +25,6 @@ pipenv install
 
 ```
 python run.py fuzzy --fuzzy time simulation
-python run.py fix   --fuzzy time simulation
+python run.py fix   --fix time simulation
 python run.py       --help
 ```
