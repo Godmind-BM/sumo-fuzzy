@@ -9,7 +9,7 @@ Sumo-fuzzy is an implementation of a fuzzy-logic based system for single road in
 
 
 ### Installation
-Aftter installing Simulator Of Urban Mobility on your System, follow below bullets:
+Aftter installing Simulator Of Urban Mobility on your System, follow below instructions:
 
 1. Clone the repository in a folder.
 2. move to the new created folder on the above folder.
