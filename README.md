@@ -1,5 +1,5 @@
 ### SUMO-FUZZY 
-Sumo-fuzzy is an implementation of a fuzzy-logic based system for single road intersection flow control enhancement. It used the open source road traffic management system Simulator Of Urban Mobility [sumo](https://github.com/eclipse/sumo) in combinaison with fuzzy inference system to enhance traffic management in a single intersection.
+Sumo-fuzzy is an implementation of a fuzzy-logic based system for single road intersection flow control enhancement. It uses the open source road traffic management system **Simulator Of Urban Mobility** [sumo](https://github.com/eclipse/sumo) in combinaison with a fuzzy inference system to enhance traffic management in a single intersection.
 
 ### Requirements
 + SUMO ( Simulator Of Urban Mobility ) [sumo](https://github.com/eclipse/sumo)
