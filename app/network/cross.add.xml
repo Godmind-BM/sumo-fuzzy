@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue 09 Jun 2020 01:18:39 PM WAT by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="/home/godmind/sumo-repositories/fuzzy-logic.py-controller/network/cross.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="/home/godmind/sumo-repositories/fuzzy-logic.py-controller/network/detectors.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- <e1Detector id="inductiveLoopE0" lane="0_2_0" pos="5.00" freq="900.00" name="inductiveLoopE0" file="inductiveLoopE0.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopE1" lane="0_2_1" pos="5.00" freq="900.00" name="inductiveLoopE1" file="inductiveLoopE1.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopE2" lane="0_2_2" pos="5.00" freq="900.00" name="inductiveLoopE2" file="inductiveLoopE2.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopN0" lane="0_4_0" pos="5.00" freq="900.00" name="inductiveLoopN0" file="inductiveLoopN0.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopN1" lane="0_4_1" pos="5.00" freq="900.00" name="inductiveLoopN1" file="inductiveLoopN1.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopN2" lane="0_4_2" pos="5.00" freq="900.00" name="inductiveLoopN2" file="inductiveLoopN2.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopS0" lane="0_3_0" pos="5.00" freq="900.00" name="inductiveLoopS0" file="inductiveLoopS0.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopS1" lane="0_3_1" pos="5.00" freq="900.00" name="inductiveLoopS1" file="inductiveLoopS1.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopS2" lane="0_3_2" pos="5.00" freq="900.00" name="inductiveLoopS2" file="inductiveLoopS2.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopW0" lane="0_1_0" pos="5.00" freq="900.00" name="inductiveLoopW0" file="inductiveLoopW0.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopW1" lane="0_1_1" pos="5.00" freq="900.00" name="inductiveLoopW1" file="inductiveLoopW1.xml" vTypes="passenger"/>
+    <e1Detector id="inductiveLoopW2" lane="0_1_2" pos="5.00" freq="900.00" name="inductiveLoopW2" file="inductiveLoopW2.xml" vTypes="passenger"/> -->
+    <e2Detector id="laneAreaE0" lane="2_0_0" pos="80.00" length="200.00" freq="100.00" name="laneAreaE0" file="laneAreaE0.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaE1" lane="2_0_1" pos="80.00" length="200.00" freq="100.00" name="laneAreaE1" file="laneAreaE1.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaE2" lane="2_0_2" pos="80.00" length="200.00" freq="100.00" name="laneAreaE2" file="laneAreaE2.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaN0" lane="4_0_0" pos="80.00" length="200.00" freq="100.00" name="laneAreaN0" file="laneAreaN0.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaN1" lane="4_0_1" pos="80.00" length="200.00" freq="100.00" name="laneAreaN1" file="laneAreaN1.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaN2" lane="4_0_2" pos="80.00" length="200.00" freq="100.00" name="laneAreaN2" file="laneAreaN2.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaS0" lane="3_0_0" pos="80.00" length="200.00" freq="100.00" name="laneAreaS0" file="laneAreaS0.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaS1" lane="3_0_1" pos="80.00" length="200.00" freq="100.00" name="laneAreaS1" file="laneAreaS1.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaS2" lane="3_0_2" pos="80.00" length="200.00" freq="100.00" name="laneAreaS2" file="laneAreaS2.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaW0" lane="1_0_0" pos="80.00" length="200.00" freq="100.00" name="laneAreaW0" file="laneAreaW0.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaW1" lane="1_0_1" pos="80.00" length="200.00" freq="100.00" name="laneAreaW1" file="laneAreaW1.xml" vTypes="passenger" friendlyPos="1"/>
+    <e2Detector id="laneAreaW2" lane="1_0_2" pos="80.00" length="200.00" freq="100.00" name="laneAreaW2" file="laneAreaW2.xml" vTypes="passenger" friendlyPos="1"/>
+</additional>
